@@ -22,8 +22,8 @@
      "text": "Priya asked the team to keep the deployment checklist in the repository."}
   ],
   "turns": [
-    {"id": "T7a", "class": "implicit_need", "text": "How do I parse this configuration file?", "expected": ["A2", "A3"], "reference": "The example is written in Python, and follows the stored Python style."},
-    {"id": "T7", "class": "implicit_need", "text": "Show me a small Python example that parses this configuration file.", "expected": ["A3"], "reference": "Function names are camelCase, the class is a dataclass, every function has a docstring, and inputs and outputs carry type annotations."},
+    {"id": "T7a", "class": "implicit_need", "text": "Write a prime number detector.", "expected": ["A2", "A3"], "reference": "The example is written in Python, with camelCase function names, a docstring, and type annotations on inputs and outputs."},
+    {"id": "T7", "class": "implicit_need", "text": "Write a small Python function that detects prime numbers.", "expected": ["A3"], "reference": "Function names are camelCase, every function has a docstring, and inputs and outputs carry type annotations."},
     {"id": "T8", "class": "explicit_fact", "text": "What time zone should you use when suggesting a meeting for me?", "expected": ["F1"], "reference": "Asia/Kolkata (IST)."},
     {"id": "T9", "class": "ordinary", "text": "Should I use tabs or spaces in Python?", "expected": [], "reference": null},
     {"id": "T10", "class": "ordinary", "text": "How often should a deployment checklist be reviewed?", "expected": [], "reference": null},
